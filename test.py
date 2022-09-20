@@ -1,3 +1,8 @@
-num1, num2, num3 = 1, 2, 3
+input = int(input("Enter your number: "))
 
-print(num1,'\n',num2,'\n',num3)
+if input > 0:
+    print("positive")
+elif input == 0:
+    print("zero")
+else:
+    print("negative")
